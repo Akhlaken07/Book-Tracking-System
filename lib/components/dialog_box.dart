@@ -19,7 +19,6 @@ class DialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      backgroundColor: Colors.yellow[200],
         title: const Text('Add New Book'),
         content: Container(
           height: 200,

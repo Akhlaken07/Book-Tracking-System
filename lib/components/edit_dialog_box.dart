@@ -16,7 +16,6 @@ class EditDialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      backgroundColor: Colors.yellow[200],
         title: const Text('Update Page Number'),
         content: Container(
           height: 200,
